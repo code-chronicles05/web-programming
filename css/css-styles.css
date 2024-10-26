@@ -1,0 +1,223 @@
+*
+{
+margin:0px;
+padding:0px;
+font-family: sans-serif;
+box-sizing: border-box;
+}
+#header{
+    width: 100%;
+    min-height: 50px;
+    background-color: black;
+}
+#name{
+    width: 25%;
+    min-height: 50px;
+    color: white;
+    float: left;
+    line-height: 50px;
+}
+#menu{
+    width: 75%;
+    min-height: 50px;
+    color: white;
+    float: right;
+    line-height: 50px;
+}
+#menu a{
+    display:inline-block;
+    width: 16%;
+    min-height: 50px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+#menu a:hover{
+    text-decoration: underline;
+}
+#about{
+    width: 100%;
+    min-height: 400px;
+    background-color:lightgray;
+}
+#about .inner{
+    width: 80%;
+    min-height: 400px;
+    margin: auto;
+}
+#about .inner #image{
+    width: 25%;
+    min-height: 400px;
+    float: left;
+    padding-top: 50px;
+}
+#about .inner #bio{
+    padding-top: 50px;
+    width: 75%;
+    min-height: 400px;
+    float: right;
+}
+#about .inner #image img{
+
+    display: block;
+    width: 80%;
+    margin: auto;
+    border: 10px solid white;
+    margin-bottom: 20px;
+}
+#about .inner #image p{
+    font-size: 24px;
+    text-align: center;
+    font-family: Georgia;
+}
+#about .inner #bio h1{
+margin-bottom: 20px;
+}
+#about .inner #bio p{
+    text-align: justify;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+#about .inner #bio a{
+    display: inline-block;
+    width: 25%;
+    min-height: 40px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+#qualification{
+    width: 100%;
+    min-height: 400px;
+    background-color: gray;
+    padding-top: 50px;
+}
+#qualification h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#qualification table{
+    width: 70%;
+    min-height: 200px;
+    margin: auto;
+}
+#qualification table tr:nth-child(1){
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#qualification table tr:nth-child(even){
+    background-color: white;
+}
+#skills{
+    width: 100%;
+    min-height: 400px;
+    background-color: lightgray;
+    padding-top: 50px;
+}
+#skills h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#skills table{
+    width: 70%;
+    min-height: 200px;
+    margin: auto;
+}
+#skills table tr:nth-child(1){
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#skills table tr:nth-child(even){
+    background-color: white;
+}
+#projects{
+    width: 100%;
+    min-height: 400px;
+    background-color: gray;
+    padding-top: 50px;
+    padding: 20px;
+}
+#projects h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#projects .inner{
+    width: 80%;
+    min-height: 300px;
+    margin: auto;
+}
+#projects .inner .col{
+    width: 50%;
+    min-height: 300px;
+    color: white;
+    float: left;
+}
+#projects .inner .col p{
+    min-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: black;
+    color: white;
+    line-height: 40px;
+}
+#projects .inner .col img{
+    width: 42%;
+    display: block;
+    margin: auto;
+}
+#contacts{
+    width: 100%;
+    min-height: 400px;
+    background-color: lightcyan;
+    padding-top: 50px;
+}
+#contacts h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#contacts form{
+    width: 30%;
+    background-color: black;
+    margin: auto;
+    padding: 4px;
+}
+#contacts form label{
+    color: white;
+    font-size: 20px;
+}
+#contacts form input{
+    width: 100%;
+    min-height: 30px;
+}
+#contacts form textarea{
+    width: 100%;
+}
+#footer{
+    width: 100%;
+    min-height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+#top{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 50px;
+    position: fixed;
+    bottom: 50px;
+    right: 20px;
+    text-align: center;
+}
+html{
+    scroll-behavior: smooth;
+}
